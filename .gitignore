@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+# Generated results (retain the four reference CSVs)
+resultados_pinn/
+resultados/*
+!resultados/tanh_ABC_ejecuciones_originales_20261030.csv
+!resultados/tanh_ABC_resumen_original_Colab_20261030.csv
+!resultados/tanh_ABC_resumen_reportado_20261030.csv
+!resultados/ABC_Jm_full/
+resultados/ABC_Jm_full/*
+!resultados/ABC_Jm_full/resultados_ABC_JmP.csv
+# Local files
+.DS_Store
+*.log
